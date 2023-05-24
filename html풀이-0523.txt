@@ -1,0 +1,61 @@
+<html>
+     <body>
+        <form action="company.html">
+        <table>
+            <tr>
+            <td colspan="2">다음 <span style="background-color: peru;"><b>내용에 맞게 입력</b></span> 
+
+하시오.</td>
+            <td rowspan="5"><img src="test.jpg" width="200px" height="150px"></td>
+            </tr>            
+               
+            <tr><td colspan="2">
+            <label>전공 분야를 입력하세요.</label>
+            <select size=1 name="test_5" >
+                <option value="Software">소프트웨어</option>
+                <option value="Robot">로봇</option>
+                <option value="System">시스템</option>
+                <option value="Service">서비스</option>
+                <option value="Education">교육</option>
+	    </select>
+             </td></tr>
+            <tr>
+                <td>이름</td><td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>아이디</td><td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td><td><input type="text"></td>
+            </tr>
+            <tr><td colspan="3">
+	        <fieldset style="width:500">
+	            <legend>성별 조사</legend>
+		        여성 <input type="radio" name="gender" checked>
+		        남성 <input type="radio" name="gender">
+	         </fieldset>
+             </td></tr>
+             <tr><td colspan="3">
+	        <fieldset style="width:500">
+	            <legend>취미 조사</legend>
+		        책읽기 <input type="checkbox">
+		        공부하기 <input type="checkbox">
+		        책 읽으며 공부하기 <input type="checkbox">
+		        컴퓨터	<input type="checkbox">
+	         </fieldset>
+             </td></tr>
+
+             <tr><td colspan="3">
+	         <fieldset style="width:500">
+	             <legend>하고 싶은 말</legend>
+		         <textarea name="test_6" rows=3 cols=60></textarea>
+	         </fieldset>
+             </td></tr>
+            <tr><td colspan="3">
+            <input type="submit" value="완료"><input type="reset" value="다시작성">
+            </td></tr>
+        </table>
+        </form>
+     </body>
+</html>
+

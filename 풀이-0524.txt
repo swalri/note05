@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="width:800px;">
+	<header>
+		<h2 align="center" style="color:pink;">B &nbsp; l &nbsp; o &nbsp; g</h2>
+	</header>
+	<nav>
+		<hr>
+		<span style="color:green;"><b>전체</b></span> &nbsp; 인테리어 &nbsp; 어학 &nbsp; 자동차 &nbsp; 만화
+		<hr>
+	</nav>
+	<section>
+		<article style="float:right;">
+			<video src="resources/media/video.m4v" controls loop autoplay width="300" height="200"></video>
+		</article>
+		<article>
+		<table border="0">
+			<tr>
+				<td><img width="100px"height="100px" src="resources/images/test1.jpg"></td><td><img width="100px"height="100px" src="resources/images/test2.jpg"></td>
+				<td><img width="100px"height="100px" src="resources/images/test3.jpg"></td><td><img width="100px"height="100px" src="resources/images/test4.jpg"></td>
+			</tr>
+			<tr>
+				<td><img width="100px"height="100px" src="resources/images/test5.jpg"></td><td><img width="100px"height="100px" src="resources/images/test6.jpg"></td>
+				<td><img width="100px"height="100px" src="resources/images/test7.jpg"></td><td><img width="100px"height="100px" src="resources/images/test8.jpg"></td>
+			</tr>
+			<tr>
+			<td colspan="4"><a href="#top">[위로 이동]</a></td>
+			</tr>
+		</table>
+		</article>
+		<br><hr>
+		<article>
+		<div style="float:right;">
+			<img width="100px" height="100px" src="resources/images/맛집01.jpg">
+		</div>
+		<div>
+		id : 컴퓨터<br>
+		<h3>겨울 제주도 여행 천백고지 부터 우도맛집 총정리!</h3>
+		<p>
+		안녕하세요!! 제주도 여행 정말 즐거웠습니다. 겨울 제주도 여행을 12월쯤에 다녀 왔습니다.!!
+		내년에 또 다녀 오겠습니다.!!!^^<br><br>
+		<a href="#top">[위로 이동]</a>
+		</div>
+		</article>
+		<hr>
+	</section>
+	<footer>
+        <small>
+            &nbsp;&nbsp;  <span style="color:green;"><i><b>CARE LAB</b></i></span><i>
+             Copyright &copy; AllRights Reserved</i> &nbsp;&nbsp;
+            &nbsp;&nbsp; &reg; 1999 | 회사소개 | TEL : 777-777
+        </small>
+    </footer>
+
+	</div>
+</body>
+</html>
