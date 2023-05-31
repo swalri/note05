@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#main { background-color: lightgray; }
+		h3:hover { background-color: white; }
+		h1:hover ~ div > h2{ color: aqua; }
+	</style>
+</head>
+<body>
+	<h1>오늘의 할 일</h1>
+	<div id="main">
+		<h2>12월 31일 할 일</h2>
+		<ul>
+			<li>
+				<h3>오전 10시</h3><p>아침밥 먹기</p>
+			</li>
+			<li>
+				<h3>낮 12시</h3><p>광합성</p>
+			</li>
+			<li>
+				<h3>오후 4시</h3><p>집 나가기</p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
